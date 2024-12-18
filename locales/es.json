@@ -1,0 +1,62 @@
+{
+  "homePage": {
+    "title": "Hola, soy",
+    "stack": "DESARROLLADOR FULL STACK JUNIOR.",
+    "cv": "Currículum",
+    "aboutMe": {
+      "title": "Sobre mí",
+      "description": "Soy un desarrollador Fullstack con sólida experiencia en Node.js, TypeScript, JavaScript y MongoDB. Como profesional autónomo, me he especializado en crear soluciones completas para una amplia variedad de proyectos, siempre enfocándome en sistemas eficientes y escalables.\n\nTengo experiencia tanto en backend, con tecnologías como Node.js y MongoDB, como en frontend, utilizando React, Next.js y Tailwind. Además, utilizo herramientas como Docker y ElectronJS para garantizar el rendimiento y la escalabilidad de las soluciones que desarrollo. A lo largo de mi carrera, me he especializado en integrar sistemas y automatizar procesos, siempre con el objetivo de atender a las necesidades reales de mis clientes de manera eficaz.\n\nMás que solo desarrollar, busco comprender las necesidades de los proyectos de manera estratégica, asegurando que las soluciones entregadas sean las más adecuadas, eficientes y escalables. Siempre busco el crecimiento profesional, adoptando las mejores prácticas y tecnologías para garantizar la calidad de los proyectos en los que me involucro."
+    },
+    "experience": {
+      "title": "Experiencia",
+      "companys": {
+        "simplify": {
+          "company": "Simplify Code",
+          "location": "São Paulo - Brasil",
+          "duration": "09/2021 - Actualidad",
+          "description": "Trabajé como desarrollador Fullstack, colaborando en proyectos con tecnologías como React, Node.js, Docker y PostgreSQL. Mis responsabilidades incluyeron la creación de APIs robustas, integración con servicios de terceros y desarrollo de interfaces amigables para los usuarios.\n\nActualmente, sigo trabajando como desarrollador Fullstack freelance, manejando una amplia gama de proyectos que me permiten explorar nuevos desafíos y tecnologías. Tengo la oportunidad de colaborar con clientes de diferentes sectores, especializándome en crear soluciones a medida que satisfacen las necesidades específicas de cada cliente, siempre enfocándome en elegir las herramientas más apropiadas para cada proyecto.\n\nMis responsabilidades incluyen el desarrollo de integraciones robustas, como automatizaciones en Discord, además de construir interfaces completas y sistemas backend utilizando tecnologías como Node.js, TypeScript, ElectronJS, Docker, PostgreSQL, MongoDB, Prisma, React, Next.js y Tailwind. A lo largo de este trayecto, me esfuerzo por comprender profundamente los objetivos y desafíos de mis clientes para entregar soluciones que se ajusten a sus metas de manera eficaz.\n\nEsta experiencia ha sido enriquecedora, permitiéndome evolucionar tanto en habilidades técnicas como en comunicación, lo cual es esencial para asegurar que las expectativas de los clientes siempre estén alineadas con los resultados entregados."
+        }
+      }
+    },
+    "education": {
+      "title": "Educación",
+      "institutions": {
+        "fiap": {
+          "institution": "FIAP",
+          "degree": "Análisis y Desarrollo de Sistemas",
+          "location": "São Paulo - Brasil",
+          "duration": "01/2020 - 12/2021"
+        }
+      }
+    },
+    "expertise": {
+      "title": "Habilidades",
+      "skills": {
+        "Básico": "Básico",
+        "Intermediário": "Intermedio",
+        "Avançado": "Avanzado"
+      }
+    },
+    "projects": {
+      "title": "Proyectos",
+      "items": {
+        "portifolio": {
+          "name": "Portafolio",
+          "description": "Desarrollé un portafolio personal responsivo utilizando Next.js, TypeScript y TailwindCSS. El objetivo de este proyecto fue crear una plataforma que presentara de manera clara y organizada mis habilidades, experiencias y proyectos realizados. Con una interfaz intuitiva y un diseño limpio, el portafolio destaca mis competencias en desarrollo web, ofreciendo una experiencia visual atractiva y eficiente para los visitantes."
+        },
+        "tlgmedia": {
+          "name": "TLG MEDIA",
+          "description": "Para una productora visual, creé una landing page centrada en mostrar los trabajos y servicios ofrecidos. Utilizando HTML, CSS, JavaScript y Express, el proyecto incluyó una galería interactiva de imágenes y videos, permitiendo que los visitantes exploraran el portafolio de la productora de manera dinámica y atractiva. La página fue optimizada para ser responsiva, asegurando una excelente experiencia tanto en escritorios como en dispositivos móviles."
+        },
+        "simplify": {
+          "name": "Simplify Code",
+          "description": "Desarrollé una landing page para una empresa de tecnología con el objetivo de promocionar sus servicios y soluciones innovadoras. El diseño estuvo centrado en la conversión, utilizando Next.js y TailwindCSS para crear una interfaz moderna y eficiente. Además, implementé integraciones con formularios de contacto y llamados a la acción, buscando facilitar la comunicación con los clientes y aumentar la conversión de prospectos."
+        },
+        "shopper": {
+          "name": "Shopper Technical Test",
+          "description": "Realicé una prueba técnica para la plataforma Shopper que simula un sistema de gestión de taxis utilizando la API de Google Maps. El proyecto consistió en crear funcionalidades para localizar, rastrear y gestionar taxis en tiempo real. Utilizando Next.js, TypeScript, PostgreSQL y Prisma, el sistema fue diseñado para ser eficiente y escalable, asegurando una excelente experiencia de usuario y un rendimiento robusto."
+        }
+      }
+    }
+  }
+}
