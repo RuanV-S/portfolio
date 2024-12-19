@@ -7,12 +7,12 @@ const AboutMe = () => {
   const t = useTranslations("homePage");
 
   return (
-    <section className="py-5 px-40 lg:pt-60 mb-40">
-      <div className="flex flex-row">
+    <section className="py-10 md:px-40 px-5 lg:pt-60 mb-10 md:mb-40">
+      <div className="flex md:flex-row flex-col md:mt-0 mt-40">
         <Image
           src="/assets/ruan.jpg"
           alt="Foto de Perfil"
-          className="rounded-3xl shadow-md"
+          className="rounded-3xl shadow-md "
           style={{
             objectFit: "cover",
             width: 400,
@@ -21,11 +21,11 @@ const AboutMe = () => {
           width={300}
           height={300}
         />
-        <div className="flex my-20 mx-20 flex-col items-start ">
+        <div className="flex my-5   md:mx-20 flex-col items-start ">
           <span className="text-4xl font-extrabold text-slate-300">
             {t("title")}
           </span>
-          <h1 className="text-7xl font-bold">Ruan Vieira 👋</h1>
+          <h1 className="text-5xl md:text-7xl font-bold">Ruan Vieira 👋</h1>
           <span className="text-2xl   font-extrabold text-cyan-100">
             {t("stack")}
           </span>

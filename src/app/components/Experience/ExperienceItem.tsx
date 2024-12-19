@@ -38,7 +38,7 @@ const ExperienceItem = ({
     <div className="flex w-full ml-5 max-w-full mt-10">
       <Image
         src={`/assets/company/${keyName}.png`}
-        className="rounded-md"
+        className="rounded-md hidden sm:block"
         alt={t(`companys.${keyName}.company`)}
         width={400}
         height={400}
@@ -49,9 +49,9 @@ const ExperienceItem = ({
         }}
       />
       <div className="ml-5">
-        <p className="text-white ">
+        <p className="text-white flex flex-col sm:flex-row">
           {t(`companys.${keyName}.company`)}
-          <span className="text-sm ml-5 text-slate-300">
+          <span className="text-sm mt-2 sm:mt-3 sm:ml-5 text-slate-300">
             {t(`companys.${keyName}.duration`)}
           </span>
         </p>

@@ -12,7 +12,7 @@ const Skill = () => {
         {t("title")}
       </p>
 
-      <div className="grid grid-cols-2 xl:grid-cols-2 sm:grid-cols-1 ">
+      <div className="grid grid-cols-1 xl:grid-cols-2 sm:grid-cols-1 ">
         <SkillList category="Front-End" />
         <SkillList category="Back-End" />
         <SkillList category="Database" />

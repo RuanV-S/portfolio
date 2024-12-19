@@ -61,7 +61,7 @@ const Header = () => {
   );
 
   return (
-    <header className="z-30 fixed top-0 left-0 backdrop-blur-sm w-full flex flex-col lg:flex-row justify-between px-40 lg:pt-10 mb-40 border-b-2 border-b-cyan-100">
+    <header className="z-30 fixed top-0 left-0 backdrop-blur-sm w-full flex flex-col sm:flex-row lg:flex-row justify-between px-40 lg:pt-10 mb-40 border-b-2 border-b-cyan-100">
       <Image
         src="/assets/logo.png"
         width={100}
@@ -70,7 +70,7 @@ const Header = () => {
         className="object-contain fill-slate-300 flex items-center justify-center"
       />
 
-      <div className="relative flex m-7 p-1 bg-cinza rounded-md">
+      <div className="relative w-[50px] flex m-7 p-1 bg-cinza rounded-md">
         <button onClick={toggleDropdown}>
           {isLoading ? (
             <Skeleton />
@@ -83,7 +83,6 @@ const Header = () => {
               height={50}
               style={{
                 objectFit: "contain",
-                maxWidth: "100%",
               }}
               loading="lazy"
             />

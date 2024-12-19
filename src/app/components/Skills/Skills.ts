@@ -101,7 +101,7 @@ const devOpsSkills: Skill[] = [
   },
   {
     category: "DevOps",
-    name: "Intermediário",
+    name: "AWS",
     icon: "/assets/icons/AWS.svg",
     level: "Intermediário",
   },

@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     logoSrc: "/assets/company/simplify.png",
     logoAlt: "Portifolio",
-    name: "portifolio", // chave de tradução
+    name: "portifolio",
     links: [
       {
         icon: "/assets/icons/GitHub.svg",
@@ -31,13 +31,13 @@ const projects: Project[] = [
         alt: "Github",
       },
     ],
-    description: "portifolio", // chave de tradução
+    description: "portifolio",
     techStack: ["Next", "Typescript", "Tailwind"],
   },
   {
     logoSrc: "/assets/company/tlgmedia.png",
     logoAlt: "Tlg Media Logo",
-    name: "tlgmedia", // chave de tradução
+    name: "tlgmedia",
     links: [
       {
         icon: "/assets/icons/www-icon.svg",
@@ -45,13 +45,13 @@ const projects: Project[] = [
         alt: "Website",
       },
     ],
-    description: "tlgmedia", // chave de tradução
+    description: "tlgmedia",
     techStack: ["Javascript", "Express", "HTML5", "CSS3", "Amazon S3"],
   },
   {
     logoSrc: "/assets/company/simplify.png",
     logoAlt: "Simplify Logo",
-    name: "simplify", // chave de tradução
+    name: "simplify",
     links: [
       {
         icon: "/assets/icons/www-icon.svg",
@@ -59,13 +59,13 @@ const projects: Project[] = [
         alt: "Website",
       },
     ],
-    description: "simplify", // chave de tradução
+    description: "simplify",
     techStack: ["Next", "Typescript", "Tailwind", "Amazon S3"],
   },
   {
     logoSrc: "/assets/company/shopper.png",
     logoAlt: "Shopper",
-    name: "shopper", // chave de tradução
+    name: "shopper",
     links: [
       {
         icon: "/assets/icons/GitHub.svg",
@@ -73,7 +73,7 @@ const projects: Project[] = [
         alt: "Github",
       },
     ],
-    description: "shopper", // chave de tradução
+    description: "shopper",
     techStack: [
       "Next",
       "Typescript",

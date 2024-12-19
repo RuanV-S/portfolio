@@ -13,12 +13,12 @@ export default function Home() {
   const t = useTranslations("homePage");
 
   return (
-    <div className="min-h-screen  relative overflow-hidden bg-background text-white flex flex-col justify-between pb-32">
+    <div className="min-h-screen relative overflow-hidden bg-background text-white flex flex-col justify-between pb-32">
       <Header />
 
       <AboutMe />
 
-      <main className="py-5 px-40 flex flex-col gap-20">
+      <main className="md:py-5 px-5 md:px-40 flex flex-col gap-20">
         <ReusableDiv>
           <p>
             <span className="text-white text-4xl">01</span>.{t("aboutMe.title")}

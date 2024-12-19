@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
 interface ReusableDivProps {
-  children: ReactNode; // Aceita qualquer conteúdo como filhos
+  children: ReactNode;
 }
 
 const ReusableDiv: React.FC<ReusableDivProps> = ({ children }) => {

@@ -28,7 +28,7 @@ const ProjectCard = ({
     <div className="flex w-full ml-5 max-w-full mt-10">
       <Image
         src={logoSrc}
-        className="rounded-md"
+        className="rounded-md  hidden sm:block"
         alt={logoAlt}
         width={120}
         height={120}
@@ -40,7 +40,7 @@ const ProjectCard = ({
         }}
       />
       <div className="ml-5">
-        <span className="flex gap-2 text-white">
+        <span className="flex gap-2 text-white flex-wrap">
           {name}{" "}
           {links.map((link, index) => (
             <Link key={index} href={link.href} target="_blank">
@@ -57,12 +57,12 @@ const ProjectCard = ({
           ))}
         </span>
 
-        <p className="text-sm text-slate-500 mt-1">{description}</p>
-        <div className="text-sm flex text-white space-x-2">
+        <p className="text-sm text-slate-500 mt-1 mr-10">{description}</p>
+        <div className="text-sm flex text-white mr-10 space-x-2 flex-wrap">
           {techStack.map((tech, index) => (
             <span
               key={index}
-              className="border-2 mt-2 border-cinza text-gray-400 p-1 hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 ease-in-out rounded-lg"
+              className="border-2 border-cinza text-gray-400 p-1 hover:shadow-xl hover:-translate-y-2 mt-1 transition-transform duration-300 ease-in-out rounded-lg"
             >
               {tech}
             </span>
