@@ -61,16 +61,20 @@ const Header = () => {
   );
 
   return (
-    <header className="z-30 fixed top-0 left-0 backdrop-blur-sm w-full flex flex-col sm:flex-row lg:flex-row justify-between px-40 lg:pt-10 mb-40 border-b-2 border-b-cyan-100">
-      <Image
-        src="/assets/logo.png"
-        width={100}
-        height={100}
-        alt="Logo"
-        className="object-contain fill-slate-300 flex items-center justify-center"
-      />
+    <header className="z-30 fixed top-0 left-0 backdrop-blur-sm w-full flex flex-col items-center sm:flex-row lg:flex-row justify-between px-4 sm:px-8 lg:px-10 mb-40 border-b-2 border-b-cyan-100">
+      {/* Contêiner da Logo */}
+      <div className="flex justify-center w-full sm:w-auto mb-4 sm:mb-0">
+        <Image
+          src="/assets/logo.png"
+          width={100}
+          height={100}
+          alt="Logo"
+          className="object-contain max-w-full h-auto"
+        />
+      </div>
 
-      <div className="relative w-[50px] flex m-7 p-1 bg-cinza rounded-md">
+      {/* Contêiner da Bandeira */}
+      <div className="relative w-[60px] flex justify-center sm:m-7 p-1 bg-cinza rounded-md">
         <button onClick={toggleDropdown}>
           {isLoading ? (
             <Skeleton />
@@ -90,7 +94,7 @@ const Header = () => {
         </button>
 
         {isOpen && (
-          <div className="absolute top-16 p-1 bg-cinza left-0 rounded-md ">
+          <div className="absolute top-16 p-1 bg-cinza left-0 rounded-md">
             {availableFlags.map((flag, index) => (
               <button key={index} onClick={() => handleSelectFlag(flag)}>
                 <Image

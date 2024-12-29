@@ -32,7 +32,7 @@ const SkillList: React.FC<SkillListProps> = ({ category }) => {
             width={41}
             height={41}
           />
-          <div className="flex gap-5 items-center text-white text-base   w-full justify-between">
+          <div className="flex gap-5 items-center text-white text-sm sm:text-base  w-full justify-between">
             <p>{skill.name}</p>
             <p>{t(skill.level)}</p>
           </div>
