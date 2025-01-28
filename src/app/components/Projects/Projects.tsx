@@ -27,7 +27,7 @@ const projects: Project[] = [
     links: [
       {
         icon: "/assets/icons/GitHub.svg",
-        href: "https://github.com/RuanV-S/Teste_FullStack_Shopper",
+        href: "https://github.com/RuanV-S/portfolio",
         alt: "Github",
       },
     ],
