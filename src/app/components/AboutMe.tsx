@@ -48,9 +48,9 @@ const AboutMe = () => {
                 ))}
             </p>
           </ReusableDiv>
+          <SociaisIcons />
         </div>
       </div>
-      <SociaisIcons />
     </section>
   );
 };

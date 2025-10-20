@@ -42,7 +42,7 @@ const SociaisIcons = () => {
         <Link
           href="https://simplfiycode.s3.sa-east-1.amazonaws.com/Ruan/CV_RUAN_VIEIRA_DA_SILVA.pdf"
           target="_blank"
-          className="font-extrabold text-xl md:text-2xl uppercase text-light-text dark:text-dark-text"
+          className="font-extrabold text-xl md:text-xl uppercase text-light-text dark:text-dark-text"
         >
           {t("cv")}
         </Link>
