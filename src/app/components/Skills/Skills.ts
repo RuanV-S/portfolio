@@ -63,6 +63,12 @@ const frontEndSkills: Skill[] = [
     icon: "/assets/icons/Tailwind.svg",
     level: "Avançado",
   },
+  {
+    category: "Front-End",
+    name: "Styled Components",
+    icon: "/assets/icons/styled.png",
+    level: "Avançado",
+  },
 ];
 
 const databaseSkills: Skill[] = [

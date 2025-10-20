@@ -38,6 +38,16 @@ const SociaisIcons = () => {
 
   return (
     <div className="flex flex-col gap-5 mt-5">
+      <div className="flex flex-row gap-2 ">
+        <Link
+          href="https://simplfiycode.s3.sa-east-1.amazonaws.com/Ruan/CV_RUAN_VIEIRA_DA_SILVA.pdf"
+          target="_blank"
+          className="font-extrabold text-xl md:text-2xl uppercase text-light-text dark:text-dark-text"
+        >
+          {t("cv")}
+        </Link>
+        <DownloadIcon className="text-green-500" />
+      </div>
       <div className="flex flex-row gap-5">
         {sociais.map((social, index) => (
           <Link key={index} href={social.link} target="_blank">
@@ -52,16 +62,6 @@ const SociaisIcons = () => {
             </div>
           </Link>
         ))}
-      </div>
-      <div className="flex flex-row gap-2 ">
-        <Link
-          href="https://simplfiycode.s3.sa-east-1.amazonaws.com/Ruan/CV_RUAN_VIEIRA_DA_SILVA.pdf"
-          target="_blank"
-          className="font-extrabold text-2xl text-light-text dark:text-dark-text"
-        >
-          {t("cv")}
-        </Link>
-        <DownloadIcon className="text-green-500" />
       </div>
     </div>
   );

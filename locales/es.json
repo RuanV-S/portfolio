@@ -4,17 +4,30 @@
     "stack": "DESARROLLADOR FULL STACK JUNIOR.",
     "cv": "Currículum",
     "aboutMe": {
-      "title": "Sobre mí",
-      "description": "Soy un desarrollador Fullstack con sólida experiencia en Node.js, TypeScript, JavaScript y MongoDB. Como profesional autónomo, me he especializado en crear soluciones completas para una amplia variedad de proyectos, siempre enfocándome en sistemas eficientes y escalables.\n\nTengo experiencia tanto en backend, con tecnologías como Node.js y MongoDB, como en frontend, utilizando React, Next.js y Tailwind. Además, utilizo herramientas como Docker y ElectronJS para garantizar el rendimiento y la escalabilidad de las soluciones que desarrollo. A lo largo de mi carrera, me he especializado en integrar sistemas y automatizar procesos, siempre con el objetivo de atender a las necesidades reales de mis clientes de manera eficaz.\n\nMás que solo desarrollar, busco comprender las necesidades de los proyectos de manera estratégica, asegurando que las soluciones entregadas sean las más adecuadas, eficientes y escalables. Siempre busco el crecimiento profesional, adoptando las mejores prácticas y tecnologías para garantizar la calidad de los proyectos en los que me involucro."
+      "title": "About Me",
+      "description": "I focus on meeting the needs of the projects I work on. Throughout my career, I have specialized in integrating systems, automating processes, and optimizing workflows, ensuring consistent and scalable results.\n\nMore than just writing code, I strive to deeply understand the goals and challenges of each project, proposing strategic and tailored solutions. I focus on quality, usability, and impact, always seeking to grow professionally and apply best practices in everything I develop."
     },
+
     "experience": {
       "title": "Experiencia",
       "companys": {
+        "chamagarcom": {
+          "company": "Chama Garçom",
+          "location": "São Paulo - Brasil",
+          "duration": "03/2025 - Actual",
+          "description": "Trabajé directamente con el cliente en la recopilación de requisitos, comprensión de objetivos y expectativas, y en la orientación en cada etapa del desarrollo de la plataforma Chama Garçom, compuesta por sitio web, panel web y aplicación móvil (Android e iOS).\n\nEl sistema integra gestión de mesas vía QR Code, control de meseros, solicitudes en tiempo real, menú digital administrable, notificaciones push e informes operativos, ofreciendo una experiencia moderna y eficiente para restaurantes y sus clientes.\n\nContribuí desde la planificación técnica y definición de la arquitectura hasta la implementación de las principales funcionalidades, garantizando calidad, rendimiento e integración entre las plataformas web y móvil."
+        },
+        "sicencevet": {
+          "company": "ScienceVet",
+          "location": "São Paulo - Brasil",
+          "duration": "03/2025 - 07/2025",
+          "description": "Desarrollo de una plataforma integrada para la gestión de estudios veterinarios, incluyendo control de animales, suministros, granjas, patrocinadores y control de calidad, además de generación automatizada de informes científicos.\n\nEl sistema aportó mayor rigor y trazabilidad a los procesos, registrando cada etapa de los estudios con fecha y responsable, lo que permitió un control completo de las actividades y la emisión de informes precisos para presentación al Ministerio de Agricultura y otros organismos regulatorios.\n\nParticipé desde la comprensión de las reglas de negocio hasta la implementación de las funcionalidades principales, con enfoque en automatización, confiabilidad de datos y cumplimiento normativo."
+        },
         "simplify": {
           "company": "Simplify Code",
           "location": "São Paulo - Brasil",
-          "duration": "09/2021 - Actualidad",
-          "description": "Trabajé como desarrollador Fullstack, colaborando en proyectos con tecnologías como React, Node.js, Docker y PostgreSQL. Mis responsabilidades incluyeron la creación de APIs robustas, integración con servicios de terceros y desarrollo de interfaces amigables para los usuarios.\n\nActualmente, sigo trabajando como desarrollador Fullstack freelance, manejando una amplia gama de proyectos que me permiten explorar nuevos desafíos y tecnologías. Tengo la oportunidad de colaborar con clientes de diferentes sectores, especializándome en crear soluciones a medida que satisfacen las necesidades específicas de cada cliente, siempre enfocándome en elegir las herramientas más apropiadas para cada proyecto.\n\nMis responsabilidades incluyen el desarrollo de integraciones robustas, como automatizaciones en Discord, además de construir interfaces completas y sistemas backend utilizando tecnologías como Node.js, TypeScript, ElectronJS, Docker, PostgreSQL, MongoDB, Prisma, React, Next.js y Tailwind. A lo largo de este trayecto, me esfuerzo por comprender profundamente los objetivos y desafíos de mis clientes para entregar soluciones que se ajusten a sus metas de manera eficaz.\n\nEsta experiencia ha sido enriquecedora, permitiéndome evolucionar tanto en habilidades técnicas como en comunicación, lo cual es esencial para asegurar que las expectativas de los clientes siempre estén alineadas con los resultados entregados."
+          "duration": "09/2021 - Actual",
+          "description": "Trabajo como desarrollador Fullstack, colaborando directamente con los clientes para entender sus objetivos, expectativas y desafíos en cada proyecto. Soy responsable de planificar, guiar y supervisar todas las etapas de desarrollo, asegurando que las soluciones entregadas satisfagan las necesidades específicas de cada cliente de manera eficiente y escalable.\n\nActualmente, trabajo como freelancer en una amplia gama de proyectos, lo que me permite explorar nuevos desafíos y proporcionar soluciones a medida, siempre priorizando la comunicación clara y la alineación continua con los objetivos del cliente.\n\nEste enfoque me ha permitido desarrollar habilidades técnicas e interpersonales, asegurando que cada proyecto se complete con calidad, dentro del plazo y alineado con las metas de los clientes."
         }
       }
     },
@@ -40,21 +53,29 @@
     "projects": {
       "title": "Proyectos",
       "items": {
+        "techmoney": {
+          "name": "TechMoney",
+          "description": "Proyecto propio: plataforma completa para gestión financiera personal, ofreciendo control de transacciones, cuentas bancarias, inversiones, metas financieras y transacciones recurrentes, con panel analítico e informes detallados para una visión estratégica de las finanzas.\n\nEl proyecto incluye categorización automática de gastos e ingresos, integración con tarjeta de crédito e interfaz moderna y responsiva, proporcionando una experiencia intuitiva y una gestión financiera eficiente.\n\nParticipé en todas las etapas del desarrollo, desde la planificación de la arquitectura hasta la implementación de las funcionalidades, garantizando una solución escalable, práctica y completamente personalizada."
+        },
+        "chamagarcom": {
+          "name": "Chama Garçom",
+          "description": "Trabajé directamente con el cliente en la recopilación de requisitos, comprensión de objetivos y expectativas, y en la orientación en cada etapa del desarrollo de la plataforma Chama Garçom, compuesta por sitio web, panel web y aplicación móvil (Android e iOS).\n\nEl sistema integra gestión de mesas vía QR Code, control de meseros, solicitudes en tiempo real, menú digital administrable, notificaciones push e informes operativos, ofreciendo una experiencia moderna y eficiente para restaurantes y sus clientes.\n\nContribuí desde la planificación técnica y definición de la arquitectura hasta la implementación de las principales funcionalidades, garantizando calidad, rendimiento e integración entre las plataformas web y móvil."
+        },
         "portifolio": {
           "name": "Portafolio",
           "description": "Desarrollé un portafolio personal responsivo utilizando Next.js, TypeScript y TailwindCSS. El objetivo de este proyecto fue crear una plataforma que presentara de manera clara y organizada mis habilidades, experiencias y proyectos realizados. Con una interfaz intuitiva y un diseño limpio, el portafolio destaca mis competencias en desarrollo web, ofreciendo una experiencia visual atractiva y eficiente para los visitantes."
         },
         "tlgmedia": {
           "name": "TLG MEDIA",
-          "description": "Para una productora visual, creé una landing page centrada en mostrar los trabajos y servicios ofrecidos. Utilizando HTML, CSS, JavaScript y Express, el proyecto incluyó una galería interactiva de imágenes y videos, permitiendo que los visitantes exploraran el portafolio de la productora de manera dinámica y atractiva. La página fue optimizada para ser responsiva, asegurando una excelente experiencia tanto en escritorios como en dispositivos móviles."
+          "description": "Para una productora visual, creé una landing page enfocada en mostrar sus trabajos y servicios. Utilizando HTML, CSS, JavaScript y Express, el proyecto incluyó una galería interactiva de imágenes y videos, permitiendo que los visitantes exploraran el portafolio de manera dinámica y atractiva. La página fue optimizada para ser responsiva, asegurando una excelente experiencia en desktop y dispositivos móviles."
         },
         "simplify": {
           "name": "Simplify Code",
-          "description": "Desarrollé una landing page para una empresa de tecnología con el objetivo de promocionar sus servicios y soluciones innovadoras. El diseño estuvo centrado en la conversión, utilizando Next.js y TailwindCSS para crear una interfaz moderna y eficiente. Además, implementé integraciones con formularios de contacto y llamados a la acción, buscando facilitar la comunicación con los clientes y aumentar la conversión de prospectos."
+          "description": "Desarrollé una landing page para una empresa de tecnología con el objetivo de promover sus servicios y soluciones innovadoras. El diseño se enfocó en conversión, utilizando Next.js y TailwindCSS para crear una interfaz moderna y eficiente. Además, implementé integraciones con formularios de contacto y llamadas a la acción, facilitando la comunicación con clientes y aumentando la conversión de leads."
         },
         "shopper": {
-          "name": "Shopper Technical Test",
-          "description": "Realicé una prueba técnica para la plataforma Shopper que simula un sistema de gestión de taxis utilizando la API de Google Maps. El proyecto consistió en crear funcionalidades para localizar, rastrear y gestionar taxis en tiempo real. Utilizando Next.js, TypeScript, PostgreSQL y Prisma, el sistema fue diseñado para ser eficiente y escalable, asegurando una excelente experiencia de usuario y un rendimiento robusto."
+          "name": "Shopper Prueba Técnica",
+          "description": "Realicé una prueba técnica para la plataforma Shopper simulando un sistema de gestión de taxis utilizando la API de Google Maps. El proyecto incluyó la creación de funcionalidades para localizar, rastrear y gestionar taxis en tiempo real. Utilizando Next.js, TypeScript, PostgreSQL y Prisma, el sistema fue diseñado para ser eficiente y escalable, garantizando una excelente experiencia de usuario y un rendimiento sólido."
         }
       }
     }

@@ -43,13 +43,13 @@ const ExperienceItem = ({
         width={400}
         height={400}
         style={{
-          objectFit: "cover",
+          objectFit: "contain",
           width: "120px",
           height: "120px",
         }}
       />
       <div className="ml-5">
-        <p className="text-black dark:text-white flex flex-col sm:flex-row">
+        <p className="text-xl md:text-2xl text-black dark:text-white flex flex-col sm:flex-row">
           {t(`companys.${keyName}.company`)}
           <span className="text-sm mt-2 sm:mt-3 sm:ml-5 text-slate-600 dark:text-slate-300">
             {t(`companys.${keyName}.duration`)}
@@ -58,7 +58,7 @@ const ExperienceItem = ({
         <p className="text-sm dark:text-slate-300 text-slate-600 mt-1">
           {t(`companys.${keyName}.location`)}
         </p>
-        <div className="text-sm text-slate-800 dark:text-slate-400 mt-1">
+        <div className="text-sm text-black dark:text-white mt-1">
           <p>{displayText}</p>
           <button
             onClick={onToggle}

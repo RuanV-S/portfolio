@@ -21,6 +21,45 @@ interface links {
 
 const projects: Project[] = [
   {
+    logoSrc: "/assets/company/techmoney.png",
+    logoAlt: "TechMoney",
+    name: "techmoney",
+    links: [
+      {
+        icon: "/assets/icons/www-icon.svg",
+        href: "https://techmoney.online/",
+        alt: "WebSite",
+      },
+    ],
+    description: "techmoney",
+    techStack: ["Next", "Typescript", "Tailwind", "AWS", "Prisma", "MongoDB"],
+  },
+  {
+    logoSrc: "/assets/company/chamagarcom.png",
+    logoAlt: "Chama Garçom",
+    name: "chamagarcom",
+    links: [
+      {
+        icon: "/assets/icons/www-icon.svg",
+        href: "https://chamagarcom.net/",
+        alt: "WebSite",
+      },
+    ],
+    description: "chamagarcom",
+    techStack: [
+      "Next",
+      "Typescript",
+      "Tailwind",
+      "EXPO",
+      "React Native",
+      "AWS",
+      "Mercado Pago SDK",
+      "Prisma",
+      "MongoDB",
+      "Styled Components",
+    ],
+  },
+  {
     logoSrc: "/assets/company/simplify.png",
     logoAlt: "Portifolio",
     name: "portifolio",
@@ -55,7 +94,7 @@ const projects: Project[] = [
     links: [
       {
         icon: "/assets/icons/www-icon.svg",
-        href: "https://simplfiycode.com.br/",
+        href: "https://simplifycode.com.br/",
         alt: "Website",
       },
     ],
@@ -94,7 +133,7 @@ const Projects = () => {
   return (
     <ReusableDiv>
       <p>
-        <span className="text-black dark:text-white text-4xl tracking-widest">
+        <span className="text-black dark:text-white text-xl md:text-4xl tracking-widest">
           03
         </span>
         .{t("title")}

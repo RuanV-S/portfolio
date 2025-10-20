@@ -32,7 +32,7 @@ const EducationItem = ({ keyName }: ExperienceItemProps) => {
         <p className="text-sm text-slate-600 dark:text-slate-300">
           {t(`institutions.${keyName}.location`)}
         </p>
-        <span className="text-base dark:text-slate-400 text-slate-800">
+        <span className="text-base dark:text-white text-slate-800">
           {t(`institutions.${keyName}.degree`)}
         </span>
       </div>

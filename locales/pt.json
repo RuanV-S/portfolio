@@ -5,16 +5,28 @@
     "cv": "Currículo",
     "aboutMe": {
       "title": "Sobre mim",
-      "description": "Sou um desenvolvedor Fullstack com sólida experiência em Node.js, TypeScript, JavaScript e MongoDB. Como profissional autônomo, tenho me especializado em criar soluções completas para uma ampla variedade de projetos, sempre focando em sistemas eficientes e escaláveis.\n\nTenho experiência tanto no backend, com tecnologias como Node.js e MongoDB, quanto no frontend, utilizando React, Next.js e Tailwind. Além disso, faço uso de ferramentas como Docker e ElectronJS para garantir a performance e escalabilidade das soluções que desenvolvo. Ao longo da minha carreira, me especializei em integrar sistemas e automatizar processos, sempre com o objetivo de atender às necessidades reais dos meus clientes de forma eficaz.\n\nMais do que apenas desenvolver, busco compreender as necessidades dos projetos de maneira estratégica, assegurando que as soluções entregues sejam as mais adequadas, eficientes e escaláveis. Estou sempre em busca de evolução profissional, adotando as melhores práticas e tecnologias para garantir a qualidade dos projetos em que me envolvo."
+      "description": "atendam às necessidades dos projetos em que trabalho. Ao longo da minha carreira, tenho me especializado em integrar sistemas, automatizar processos e otimizar fluxos de trabalho, garantindo resultados consistentes e escaláveis.\n\nMais do que apenas escrever código, busco entender profundamente os objetivos e desafios de cada projeto, propondo soluções estratégicas e personalizadas. Tenho foco em qualidade, usabilidade e impacto, sempre procurando evoluir profissionalmente e aplicar as melhores práticas em tudo que desenvolvo."
     },
     "experience": {
       "title": "Experiência",
       "companys": {
+        "chamagarcom": {
+          "company": "Chama Garçom",
+          "location": "São Paulo - Brasil",
+          "duration": "03/2025 - Atual",
+          "description": "Atuei diretamente com o cliente no levantamento de requisitos, entendimento dos objetivos e expectativas e na orientação em cada etapa do desenvolvimento da plataforma Chama Garçom, composta por site, dashboard web e aplicativo móvel (Android e iOS).\n\nO sistema integra gestão de mesas via QR Code, controle de garçons, chamados em tempo real, cardápio digital gerenciável, notificações push e relatórios operacionais, oferecendo uma experiência moderna e eficiente para restaurantes e seus clientes.\n\nContribuí desde o planejamento técnico e definição da arquitetura até a implementação das principais funcionalidades, garantindo qualidade, desempenho e integração entre as plataformas web e mobile."
+        },
+        "sicencevet": {
+          "company": "ScienceVet",
+          "location": "São Paulo - Brasil",
+          "duration": "03/2025 - 07/2025",
+          "description": "Desenvolvimento de uma plataforma integrada para gestão de estudos veterinários, contemplando controle de animais, insumos, fazendas, patrocinadores e qualidade, além de geração automatizada de relatórios científicos.\n\nO sistema trouxe maior rigidez e rastreabilidade aos processos, registrando cada etapa dos estudos com data e responsável, o que possibilitou um controle completo das atividades e emissão de relatórios precisos para apresentação ao Ministério da Fazenda e demais órgãos regulatórios.\n\nAtuei desde o entendimento das regras de negócio até a implementação das principais funcionalidades, com foco em automação, confiabilidade dos dados e conformidade regulatória."
+        },
         "simplify": {
           "company": "Simplify Code",
           "location": "São Paulo - Brasil",
           "duration": "09/2021 - Atual",
-          "description": "Atuei como desenvolvedor Fullstack, colaborando em projetos com tecnologias como React, Node.js, Docker e PostgreSQL. Minhas responsabilidades incluíram a criação de APIs robustas, integração com serviços de terceiros e desenvolvimento de interfaces amigáveis para os usuários.\n\nAtualmente, continuo atuando como desenvolvedor Fullstack freelancer, trabalhando em uma ampla gama de projetos que me permitem explorar novos desafios e tecnologias. Tenho a oportunidade de colaborar com clientes de diferentes setores, especializando-me em criar soluções sob medida que atendem às necessidades específicas de cada um, sempre com foco na escolha das ferramentas mais adequadas para cada projeto.\n\nMinhas responsabilidades incluem o desenvolvimento de integrações robustas, como automações no Discord, além de construir interfaces completas e sistemas backend utilizando tecnologias como Node.js, TypeScript, ElectronJS, Docker, PostgreSQL, MongoDB, Prisma, React, Next.js e Tailwind. Ao longo dessa trajetória, busco compreender profundamente os objetivos e desafios dos meus clientes para entregar soluções que se ajustem às suas metas de forma eficaz.\n\nEssa experiência tem sido enriquecedora, permitindo-me evoluir tanto em habilidades técnicas quanto em comunicação, essencial para garantir que as expectativas dos clientes estejam sempre alinhadas com os resultados entregues."
+          "description": "Atuo como desenvolvedor Fullstack, colaborando diretamente com clientes para entender seus objetivos, expectativas e desafios em cada projeto. Sou responsável por planejar, orientar e acompanhar todas as etapas de desenvolvimento, garantindo que as soluções entregues atendam às necessidades específicas de cada cliente de forma eficiente e escalável.\n\nAtualmente, trabalho como freelancer em uma ampla gama de projetos, o que me permite explorar novos desafios e fornecer soluções sob medida, sempre priorizando a comunicação clara e o alinhamento constante com os objetivos do cliente.\n\nEssa abordagem tem me permitido desenvolver habilidades técnicas e interpessoais, assegurando que cada projeto seja concluído com qualidade, dentro do prazo e alinhado às metas dos clientes."
         }
       }
     },
@@ -40,6 +52,14 @@
     "projects": {
       "title": "Projetos",
       "items": {
+        "techmoney": {
+          "name": "TechMoney",
+          "description": "Projeto próprio de plataforma completa para gestão financeira pessoal, oferecendo controle de transações, contas bancárias, investimentos, metas financeiras e transações recorrentes, com dashboard analítico e relatórios detalhados para uma visão estratégica das finanças.\n\nO projeto inclui categorização automática de despesas e receitas, integração com cartão de crédito, interface responsiva e moderna, proporcionando experiência intuitiva e gestão financeira eficiente.\n\nAtuei em todas as etapas do desenvolvimento, desde o planejamento da arquitetura até a implementação das funcionalidades, garantindo uma solução escalável, prática e totalmente sob medida."
+        },
+        "chamagarcom": {
+          "name": "Chama Garçom",
+          "description": "Atuei diretamente com o cliente no levantamento de requisitos, entendimento dos objetivos e expectativas e na orientação em cada etapa do desenvolvimento da plataforma Chama Garçom, composta por site, dashboard web e aplicativo móvel (Android e iOS).\n\nO sistema integra gestão de mesas via QR Code, controle de garçons, chamados em tempo real, cardápio digital gerenciável, notificações push e relatórios operacionais, oferecendo uma experiência moderna e eficiente para restaurantes e seus clientes.\n\nContribuí desde o planejamento técnico e definição da arquitetura até a implementação das principais funcionalidades, garantindo qualidade, desempenho e integração entre as plataformas web e mobile."
+        },
         "portifolio": {
           "name": "Portfólio",
           "description": "Desenvolvi um portfólio pessoal responsivo utilizando Next.js, TypeScript e TailwindCSS. O objetivo deste projeto foi criar uma plataforma que apresentasse de maneira clara e organizada minhas habilidades, experiências e projetos realizados. Com uma interface intuitiva e um design clean, o portfólio destaca minhas competências em desenvolvimento web, oferecendo uma experiência visual atrativa e eficiente para os visitantes."

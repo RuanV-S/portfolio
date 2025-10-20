@@ -8,12 +8,12 @@ const AboutMe = () => {
   const t = useTranslations("homePage");
 
   return (
-    <section className="md:px-40 px-5 lg:pt-60 mb-10 md:mb-20">
-      <div className="flex md:flex-row flex-col md:mt-0 mt-40">
+    <section className="md:px-40 p-5 lg:pt-60 mb-10 md:mb-20">
+      <div className="flex 2xl:flex-row flex-col md:mt-0 mt-40">
         <Image
           src="/assets/ruan.jpg"
           alt="Foto de Perfil"
-          className="rounded-3xl shadow-md "
+          className="hidden 2xl:block rounded-3xl shadow-md "
           style={{
             objectFit: "cover",
             width: 400,
@@ -22,12 +22,12 @@ const AboutMe = () => {
           width={300}
           height={300}
         />
-        <div className="flex my-5 text-light-text dark:text-dark-text md:mx-20 flex-col items-start  ">
+        <div className="flex my-5 text-light-text dark:text-dark-text 2xl:mx-20 flex-col items-start  ">
           <div className="flex gap-2">
-            <span className="text-3xl  font-extrabold text-black dark:text-white">
+            <span className="text-xl md:text-3xl  font-extrabold text-black dark:text-white">
               {t("title")}
             </span>
-            <h1 className="text-3xl font-extrabold text-black dark:text-white  ">
+            <h1 className="text-xl md:text-3xl font-extrabold text-black dark:text-white  ">
               Ruan Vieira 👋
             </h1>
           </div>

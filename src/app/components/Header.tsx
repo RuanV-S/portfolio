@@ -78,7 +78,7 @@ const Header = () => {
       </div>
 
       {/* Contêiner da Bandeira */}
-      <div className="hidden lg:flex items-center gap-6">
+      <div className="flex items-center gap-6 mb-10 sm:mb-0">
         {/* Switch de tema */}
         <button
           onClick={toggleTheme}
