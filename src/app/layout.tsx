@@ -5,10 +5,11 @@ const Rethink = Rethink_Sans({ subsets: ["latin"] });
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { cookies } from "next/headers";
+import { ThemeProvider } from "./components/ThemeProvider";
 
 export const metadata: Metadata = {
   title: "Ruan Vieira",
-  description: "Desenvolvedor Full Stack Junior - Ruan Vieira",
+  description: "Ruan Vieira - Desenvolvedor Full Stack",
   icons: {
     icon: "/assets/favicons/favicon.ico",
     shortcut: "/assets/favicons/favicon.ico",
@@ -25,7 +26,6 @@ export default async function LocaleLayout({
   children: React.ReactNode;
 }) {
   const locale = await getLocale();
-  const messages = await getMessages();
   const lang = (await cookies()).get("NEXT_LOCALE")?.value;
 
   const validLocales: string[] = ["pt", "en", "es"];
@@ -36,12 +36,15 @@ export default async function LocaleLayout({
     ? (locale as string)
     : "pt";
 
+  const messages = await getMessages({ locale: selectedLocale });
   return (
     <html lang={selectedLocale} className="scroll-smooth">
       <body className={Rethink.className}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <ThemeProvider>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "boxicons/css/boxicons.min.css";
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #2f3335;
+}
+
+.dark {
+  --background: #2f3335;
+  --foreground: #ededed;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+
+  transition: background 0.3s, color 0.3s;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
