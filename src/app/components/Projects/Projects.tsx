@@ -94,8 +94,10 @@ const Projects = () => {
   return (
     <ReusableDiv>
       <p>
-        <span className="text-white text-4xl tracking-widest">05</span>.
-        {t("title")}
+        <span className="text-black dark:text-white text-4xl tracking-widest">
+          03
+        </span>
+        .{t("title")}
       </p>
 
       <div className="grid grid-cols-1">

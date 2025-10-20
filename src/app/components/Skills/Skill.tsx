@@ -8,8 +8,10 @@ const Skill = () => {
   return (
     <ReusableDiv>
       <p>
-        <span className="text-white text-4xl tracking-widest">04</span>.
-        {t("title")}
+        <span className="text-black dark:text-white text-4xl tracking-widest">
+          04
+        </span>
+        .{t("title")}
       </p>
 
       <div className="grid grid-cols-1 xl:grid-cols-2 sm:grid-cols-1 ">

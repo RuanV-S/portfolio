@@ -18,8 +18,8 @@ const Experience = () => {
 
   return (
     <ReusableDiv>
-      <p className="text-4xl text-white font-bold tracking-widest mb-8">
-        02<span className="text-cyan-100">.{t("title")}</span>
+      <p className="text-4xl text-black dark:text-white font-bold tracking-widest mb-8">
+        01<span className="text-cyan-100">.{t("title")}</span>
       </p>
       <div className="grid grid-cols-1 gap-8">
         {keys.map((key) => (

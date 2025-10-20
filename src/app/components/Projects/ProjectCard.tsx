@@ -40,11 +40,11 @@ const ProjectCard = ({
         }}
       />
       <div className="ml-5">
-        <span className="flex gap-2 text-white flex-wrap">
+        <span className="flex gap-2 text-black dark:text-white flex-wrap">
           {name}{" "}
           {links.map((link, index) => (
             <Link key={index} href={link.href} target="_blank">
-              <div className="bg-cinza flex hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 ease-in-out p-1 gap-4 rounded-md">
+              <div className="flex hover:shadow-xl hover:-translate-y-2 transition-transform duration-300 ease-in-out p-1 gap-4 rounded-md">
                 <Image
                   src={link.icon}
                   alt={link.alt}
@@ -62,7 +62,7 @@ const ProjectCard = ({
           {techStack.map((tech, index) => (
             <span
               key={index}
-              className="border-2 border-cinza text-gray-400 p-1 hover:shadow-xl hover:-translate-y-2 mt-1 transition-transform duration-300 ease-in-out rounded-lg"
+              className="border-2 dark:border-white/50 text-black border-slate-400 dark:text-gray-400 p-1 hover:shadow-xl hover:-translate-y-2 mt-1 transition-transform duration-300 ease-in-out rounded-lg"
             >
               {tech}
             </span>

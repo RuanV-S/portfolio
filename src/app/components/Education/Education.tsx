@@ -8,9 +8,8 @@ const Education = () => {
 
   return (
     <ReusableDiv>
-      <p>
-        <span className="text-white text-4xl tracking-widest">03</span>.
-        {t("title")}
+      <p className="text-4xl text-black dark:text-white font-bold tracking-widest mb-8">
+        02<span className="text-cyan-100">.{t("title")}</span>
       </p>
 
       <div className="grid grid-cols-1 gap-8">

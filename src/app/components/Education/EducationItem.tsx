@@ -23,16 +23,16 @@ const EducationItem = ({ keyName }: ExperienceItemProps) => {
         }}
       />
       <div className="ml-5">
-        <p className="text-white flex flex-col sm:flex-row">
+        <p className="text-black dark:text-white flex flex-col sm:flex-row">
           {t(`institutions.${keyName}.institution`)}
-          <span className="text-sm mt-2 sm:mt-3 sm:ml-5 text-slate-300">
+          <span className="text-sm mt-2 sm:mt-3 sm:ml-5 dark:text-slate-300 text-slate-600">
             {t(`institutions.${keyName}.duration`)}
           </span>
         </p>
-        <p className="text-sm text-slate-300">
+        <p className="text-sm text-slate-600 dark:text-slate-300">
           {t(`institutions.${keyName}.location`)}
         </p>
-        <span className="text-base text-slate-400">
+        <span className="text-base dark:text-slate-400 text-slate-800">
           {t(`institutions.${keyName}.degree`)}
         </span>
       </div>

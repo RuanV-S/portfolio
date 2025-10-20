@@ -49,16 +49,16 @@ const ExperienceItem = ({
         }}
       />
       <div className="ml-5">
-        <p className="text-white flex flex-col sm:flex-row">
+        <p className="text-black dark:text-white flex flex-col sm:flex-row">
           {t(`companys.${keyName}.company`)}
-          <span className="text-sm mt-2 sm:mt-3 sm:ml-5 text-slate-300">
+          <span className="text-sm mt-2 sm:mt-3 sm:ml-5 text-slate-600 dark:text-slate-300">
             {t(`companys.${keyName}.duration`)}
           </span>
         </p>
-        <p className="text-sm text-slate-300 mt-1">
+        <p className="text-sm dark:text-slate-300 text-slate-600 mt-1">
           {t(`companys.${keyName}.location`)}
         </p>
-        <div className="text-sm text-slate-400 mt-1">
+        <div className="text-sm text-slate-800 dark:text-slate-400 mt-1">
           <p>{displayText}</p>
           <button
             onClick={onToggle}
