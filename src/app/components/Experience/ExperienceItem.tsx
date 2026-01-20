@@ -58,7 +58,7 @@ const ExperienceItem = ({
         <p className="text-sm dark:text-slate-300 text-slate-600 mt-1">
           {t(`companys.${keyName}.location`)}
         </p>
-        <div className="text-sm text-black dark:text-white mt-1">
+        <div className="text-sm text-black dark:text-white mt-1 max-w-md">
           <p>{displayText}</p>
           <button
             onClick={onToggle}

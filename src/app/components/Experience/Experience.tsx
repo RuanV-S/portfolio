@@ -6,7 +6,7 @@ import ExperienceItem from "./ExperienceItem";
 
 const Experience = () => {
   const t = useTranslations("homePage.experience");
-  const keys = ["chamagarcom", "sicencevet", "simplify"];
+  const keys = ["simplify", "chamagarcom", "sicencevet"];
   const [expandedKeys, setExpandedKeys] = useState<Record<string, boolean>>({});
 
   const toggleExpand = (key: string) => {
@@ -18,7 +18,7 @@ const Experience = () => {
 
   return (
     <ReusableDiv>
-      <p className="text-xl md:text-4xl text-black dark:text-white font-bold tracking-widest md:mb-8">
+      <p className="text-black dark:text-white font-bold tracking-widest">
         01<span className="text-cyan-100">.{t("title")}</span>
       </p>
       <div className="grid grid-cols-1 gap-8">

@@ -20,7 +20,7 @@ const SkillList: React.FC<SkillListProps> = ({ category }) => {
       {filteredSkills.map((skill, index) => (
         <div
           key={index}
-          className="flex hover:-translate-y-1 transition-transform duration-300 ease-in-out bg-slate-200 dark:bg-white/50 w-full text-wrap rounded-xl mr-20 p-1 mb-5"
+          className="flex hover:-translate-y-1 transition-transform duration-300 ease-in-out bg-slate-100 dark:bg-white/50 w-full text-wrap rounded-xl mr-20 p-1 mb-5"
         >
           <Image
             src={skill.icon}

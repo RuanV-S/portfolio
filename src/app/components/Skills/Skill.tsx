@@ -7,14 +7,12 @@ const Skill = () => {
 
   return (
     <ReusableDiv>
-      <p>
-        <span className="text-black dark:text-white text-4xl tracking-widest">
-          04
-        </span>
+      <p className="mb-10 text-cyan-100">
+        <span className="text-black dark:text-white   tracking-widest">03</span>
         .{t("title")}
       </p>
 
-      <div className="grid grid-cols-1 xl:grid-cols-2 sm:grid-cols-1 ">
+      <div className="grid grid-cols-1 sm:grid-cols-1 ">
         <SkillList category="Front-End" />
         <SkillList category="Back-End" />
         <SkillList category="Database" />

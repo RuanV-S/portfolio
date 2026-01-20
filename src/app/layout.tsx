@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { Rethink_Sans } from "next/font/google";
+import { Inter } from "next/font/google";
 import "./globals.css";
-const Rethink = Rethink_Sans({ subsets: ["latin"] });
+const Rethink = Inter({ subsets: ["latin"] });
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
 import { cookies } from "next/headers";
@@ -33,8 +33,8 @@ export default async function LocaleLayout({
   const selectedLocale: string = validLocales.includes(lang || "")
     ? (lang as string)
     : validLocales.includes(locale || "")
-    ? (locale as string)
-    : "pt";
+      ? (locale as string)
+      : "pt";
 
   const messages = await getMessages({ locale: selectedLocale });
   return (

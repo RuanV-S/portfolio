@@ -1,28 +1,30 @@
 "use client";
 
-import Header from "./components/Header";
-import Projects from "./components/Projects/Projects";
 import Experience from "./components/Experience/Experience";
 import Education from "./components/Education/Education";
-import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects/Projects";
 import Skill from "./components/Skills/Skill";
+import Sidebar from "./components/Sidebar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen relative overflow-hidden bg-background text-white flex flex-col justify-between pb-32">
-      <Header />
+    <div className="min-h-screen bg-background text-foreground">
+      <div className="max-w-7xl mx-auto px-4 md:px-10 py-10">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
+          {/* SIDEBAR */}
+          <aside className="lg:col-span-4 lg:sticky lg:top-10 h-fit">
+            <Sidebar />
+          </aside>
 
-      <AboutMe />
-
-      <main className="md:py-5 px-5 md:px-40 flex flex-col gap-20">
-        <Experience />
-
-        <Education />
-
-        <Projects />
-
-        <Skill />
-      </main>
+          {/* CONTENT */}
+          <main className="lg:col-span-8 space-y-24">
+            <Experience />
+            <Projects />
+            <Skill />
+            <Education />
+          </main>
+        </div>
+      </div>
     </div>
   );
 }
