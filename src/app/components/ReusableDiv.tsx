@@ -9,7 +9,7 @@ const ReusableDiv: React.FC<ReusableDivProps> = ({ children }) => {
     <div
       className="
     text-3xl font-bold uppercase tracking-widest
-    rounded-3xl p-11 shadow-lg
+    rounded-3xl p-2 shadow-lg
 
     /* Light */
     bg-white

@@ -80,10 +80,10 @@ export default function Sidebar() {
         </div>
 
         {/* NOME E CARGO */}
-        <div className="space-y- md:space-y-5">
+        <div className="space-y-4  md:space-y-5">
           <h1 className="text-3xl md:text-4xl font-black tracking-tight leading-tight">
             Ruan Vieira
-            <br className="hidden md:block" />
+            <br className="block" />
             <span className="font-light text-3xl text-zinc-500 dark:text-zinc-400">
               software developer
             </span>
