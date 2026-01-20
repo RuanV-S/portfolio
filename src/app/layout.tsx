@@ -15,19 +15,16 @@ export const metadata: Metadata = {
   description:
     "Ruan Vieira é desenvolvedor Fullstack Júnior, especializado em aplicações web modernas, integrações de sistemas, automação de processos e soluções eficientes com React, Next.js e Node.js.",
   keywords: [
-    // Nome
     "Ruan Vieira",
     "Ruan Vieira desenvolvedor",
     "Ruan Vieira fullstack",
 
-    // Cargo
     "Desenvolvedor Fullstack",
     "Desenvolvedor Fullstack Júnior",
     "Desenvolvedor Web",
     "Programador Fullstack",
     "Programador Web",
 
-    // Tecnologias
     "React",
     "Next.js",
     "Node.js",
@@ -37,13 +34,11 @@ export const metadata: Metadata = {
     "Integração de sistemas",
     "Automação de processos",
 
-    // Mercado BR
     "Desenvolvedor Fullstack Brasil",
     "Desenvolvedor Web Brasil",
     "Programador Júnior",
     "Portfólio Desenvolvedor",
 
-    // EN
     "Fullstack Developer",
     "Junior Fullstack Developer",
     "Web Developer",
