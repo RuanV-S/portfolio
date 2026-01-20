@@ -132,12 +132,12 @@ const Projects = () => {
   const t = useTranslations("homePage.projects");
   return (
     <ReusableDiv>
-      <p className="text-cyan-100">
+      <p className="text-cyan-100 p-10">
         <span className="text-black dark:text-white tracking-widest">02</span>.
         {t("title")}
       </p>
 
-      <div className="grid grid-cols-1">
+      <div className="grid grid-cols-1 -mt-10">
         {projects.map((project, index) => {
           const nameTranslation = t(`items.${project.name}.name`);
           const descriptionTranslation = t(

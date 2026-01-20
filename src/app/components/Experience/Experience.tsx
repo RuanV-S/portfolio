@@ -18,10 +18,10 @@ const Experience = () => {
 
   return (
     <ReusableDiv>
-      <p className="text-black dark:text-white font-bold tracking-widest">
+      <p className="text-black dark:text-white font-bold tracking-widest p-10 -mb-10">
         01<span className="text-cyan-100">.{t("title")}</span>
       </p>
-      <div className="grid grid-cols-1 gap-8">
+      <div className="grid grid-cols-1 gap-8 p-10 md:p-0">
         {keys.map((key) => (
           <ExperienceItem
             key={key}

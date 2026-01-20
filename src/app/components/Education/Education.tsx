@@ -8,7 +8,7 @@ const Education = () => {
 
   return (
     <ReusableDiv>
-      <p className="font-bold tracking-widest text-black dark:text-white ">
+      <p className="font-bold tracking-widest text-black dark:text-white px-6 py-5 -mb-5 ">
         04<span className="text-cyan-100">.{t("title")}</span>
       </p>
 

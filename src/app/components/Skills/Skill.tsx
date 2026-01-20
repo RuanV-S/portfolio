@@ -7,7 +7,7 @@ const Skill = () => {
 
   return (
     <ReusableDiv>
-      <p className="mb-10 text-cyan-100">
+      <p className=" text-cyan-100 p-5">
         <span className="text-black dark:text-white   tracking-widest">03</span>
         .{t("title")}
       </p>
